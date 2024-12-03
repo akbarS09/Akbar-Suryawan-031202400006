@@ -1,0 +1,23 @@
+
+// Online C++ Compiler - Build, Compile and Run your C++ programs online in your favorite browser
+
+#include<iostream>
+
+using namespace std;
+  
+int main()
+{
+    int number [6]={1, 5, 2, 3, 7, 8};
+    
+    std::cout << "array elements are : " << std::endl;
+    cout << number[2]<< endl;
+    cout << number[1]<< endl;
+    cout << number[0]<< endl;
+    cout << number[3]<< endl;
+    cout << number[4]<< endl;
+    cout << number[5]<< endl;
+    
+    number[23];
+    
+    return 0;
+}
