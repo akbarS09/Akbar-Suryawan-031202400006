@@ -17,7 +17,5 @@ int main()
     cout << number[4]<< endl;
     cout << number[5]<< endl;
     
-    number[23];
-    
     return 0;
 }
